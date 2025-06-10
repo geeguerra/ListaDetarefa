@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List - geovanna</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do list - geovanna</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <!-- titulo da pagina -->
-    <h1>Lista de Tarefas da geovanna</h1>
-         <!-- formulario -->
-    <form action="" class="input-section"> 
-        <!-- input para adicionar tarefa com texto dentro do input(placeholder) -->
-        <input type="text" placeholder="Adicione aqui a tarefa...." id="tarefa"> 
+      <!-- titulo da pagina -->
+      <h1 id="titulo">ListaDetarefas</h1>
+      <!-- formulario -->
+      <div class="input-section">
+        <!-- input para adicionar tarefa com texto dentro do input (placeholber) -->
+        <input
+          type="text"
+          placeholder="Adicionar aqui a tarefa..."
+          id="tarefa"
+        />
         <!-- botão de envio da tarefa -->
         <button id="btn-add">Adicionar tarefa</button>
-    </form>
-</div>
-<div class="todo-List">
-    <ul id="taskList">
+      </div>
+      <div class="todo-list">
+        <ul id="taskList"></ul>
+      </div>
+    </div>
 
-    </ul>
-</div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
